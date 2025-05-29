@@ -1,0 +1,35 @@
+/* styles.css */
+
+/* Navbar */
+nav {
+  background-color: #2d3748; /* warna mirip bg-gray-800 */
+  padding: 16px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 16px;
+  margin: 0;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #63b3ed; /* warna hover biru muda */
+}
+
+/* Container utama */
+.container {
+  max-width: 960px;
+  margin: 20px auto;
+  padding: 16px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
