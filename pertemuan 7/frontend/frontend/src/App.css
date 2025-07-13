@@ -1,0 +1,75 @@
+/* App.css */
+
+/* Global style untuk dark mode */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #121212; /* Warna latar gelap */
+  color: #f0f0f0; /* Warna teks terang */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  align-items: center;
+}
+
+/* Navbar style */
+nav {
+  background-color: #1f1f1f;
+  padding: 1rem 2rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: #00bcd4;
+}
+
+/* Kontainer utama konten */
+.container {
+  max-width: 800px;
+  width: 100%;
+  margin-top: 2rem;
+  padding: 2rem;
+  background-color: #1e1e1e;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  text-align: center;
+}
+
+/* Heading */
+h1 {
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  color: #ffffff;
+}
+
+/* List styling */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #292929;
+  margin-bottom: 0.75rem;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  color: #e0e0e0;
+  transition: background-color 0.3s ease;
+}
+
+li:hover {
+  background-color: #383838;
+}
